@@ -1,36 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-		<meta name="viewport" content="width=device-width" />
-		%sveltekit.head%
-	</head>
-	<style>
-		body {
-		  margin: 0px;
-		  background-color: #f8f8f8;
-		}
-		p {
-		  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-		}
-		a {
-		  text-decoration: none;
-		}
-  
-		.hide-scroll {
-		  overflow: hidden;
-		}
-  
-		.blackScreen {
-		  position: absolute;
-		  width: 100%;
-		  min-height: 100vh;
-		  background-color: #00000086;
-		  z-index: 100;
-		}
-	  </style>
-	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">%sveltekit.body%</div>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%sveltekit.assets%/favicon.png" />
+    <meta name="viewport" content="width=device-width" />
+    %sveltekit.head%
+    <style>
+      body {
+        margin: 0px;
+        background-color: #f8f8f8;
+      }
+      p {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      a {
+        text-decoration: none;
+      }
+
+      .hide-scroll {
+        overflow: hidden;
+      }
+
+      .blackScreen {
+        position: absolute;
+        width: 100%;
+        min-height: 100vh;
+        background-color: #00000086;
+        z-index: 100;
+      }
+    </style>
+  </head>
+  <body data-sveltekit-preload-data="hover">
+    <div style="display: contents">%sveltekit.body%</div>
+  </body>
+  <script>
+    //   window.onresize = () => {
+    //     let ww = window.innerWidth;
+    //     let wh = window.innerHeight;
+
+    //     if (ww > wh) {
+    // 	console.log('executeDesktop')
+    //       window.location.href = "/desktop/home";
+    // } else {
+    // 	  console.log('executeMobile')
+    //       window.location.href = "/mobile/home";
+    //     }
+    //   };
+  </script>
 </html>
