@@ -18,19 +18,19 @@
 </script>
 
 <div class="app">
-	<Header />
+	<!-- <Header /> -->
 
 	<main>
 		<slot />
 	</main>
 
-	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-	</footer>
+	<!-- <footer>
+		<p>visit <a href="/desktop/home">kit.svelte.dev</a> to learn SvelteKit</p>
+	</footer> -->
 </div>
 
 <style>
-	.app {
+	/* .app {
 		display: flex;
 		flex-direction: column;
 		min-height: 100vh;
@@ -63,5 +63,5 @@
 		footer {
 			padding: 12px 0;
 		}
-	}
+	} */
 </style>

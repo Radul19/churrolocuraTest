@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
@@ -56,4 +56,51 @@
 		top: 0;
 		display: block;
 	}
-</style>
+</style> -->
+<script>
+    export const prerender = true;
+    import { onMount } from "svelte";
+    import loading from "../public/loading.gif";
+  
+    let iw=0;
+    let ih=1;
+    onMount(() => {
+      let desktop = iw > ih && true;
+  
+      if (desktop) {
+        window.location.href = "/desktop/home";
+      } else {
+        window.location.href = "/mobile/home";
+      }
+    });
+  </script>
+  
+  <svelte:window bind:innerWidth={iw} bind:innerHeight={ih} />
+  <div class="">
+      <!-- <p>Visit <a href="/mobile/home">Mobile folder</a> to read the documentation</p> -->
+    <!-- <p>Loading...</p> -->
+    <img src={loading} alt="laoding" />
+  </div>
+  
+  
+  <style>
+    div {
+      height: 100vh;
+      width: 100vw;
+      box-sizing: border-box;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    /* p{
+          margin: 0px;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          text-align: center;
+      } */
+    img {
+      /* width: 100%; */
+      max-width: 320px;
+    }
+  </style>
+  
