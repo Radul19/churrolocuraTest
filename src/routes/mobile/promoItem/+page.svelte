@@ -57,7 +57,7 @@
   {#if show}
     <ContactModal {show} {openModal} />
   {/if}
-  <Header backRef="/mobile/promo" />
+  <Header backRef="/mobile/promo" picture={item[0].image} />
   <Picture {item} />
 
   <div class="info-display">

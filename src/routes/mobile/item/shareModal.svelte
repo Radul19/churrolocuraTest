@@ -1,6 +1,6 @@
 <script>
-  import picture from "../../../public/itemPic.png";
-  export let show;
+  // import picture from "../../../public/itemPic.png";
+  export let show,picture
 </script>
 
 <div class="blackScreen">

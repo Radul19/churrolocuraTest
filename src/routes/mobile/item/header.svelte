@@ -1,6 +1,6 @@
 <script>
   import ShareModal from "./shareModal.svelte";
-  export let backRef
+  export let backRef,picture
 
   let showShare = false;
   const openShare = () => {
@@ -10,7 +10,7 @@
 </script>
 
 {#if showShare}
-  <ShareModal show={openShare} />
+  <ShareModal show={openShare} {picture} />
 {/if}
 
 <div class="header">
