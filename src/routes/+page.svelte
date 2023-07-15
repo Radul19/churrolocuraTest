@@ -1,5 +1,4 @@
 <script>
-    export const prerender = true;
     import { onMount } from "svelte";
     import loading from "../public/loading.gif";
   
@@ -7,7 +6,7 @@
     let iw;
     let ih;
     onMount(() => {
-      let desktop = iw > ih && true;
+      let desktop = iw > ih;
   
       if (desktop) {
         window.location.href = "/desktop/home";
@@ -17,7 +16,7 @@
     });
   </script>
   
-  <!-- <svelte:window bind:innerWidth={iw} bind:innerHeight={ih} /> -->
+  <svelte:window bind:innerWidth={iw} bind:innerHeight={ih} />
   <div class="">
       <p>Visit <a href="/mobile/home">Mobile folder</a> to read the documentation</p>
     <!-- <p>Loading...</p> -->
