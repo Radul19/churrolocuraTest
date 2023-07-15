@@ -34,14 +34,5 @@
       align-items: center;
       justify-content: center;
     }
-    /* p{
-          margin: 0px;
-          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-          text-align: center;
-      } */
-    img {
-      /* width: 100%; */
-      max-width: 320px;
-    }
   </style>
   

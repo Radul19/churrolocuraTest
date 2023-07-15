@@ -56,7 +56,7 @@
   }
   .prom-carousel {
     display: flex;
-    width: 100vw;
+    width: 100%;
     overflow: auto;
     gap: 0px 24px;
     padding: 12px 24px;
