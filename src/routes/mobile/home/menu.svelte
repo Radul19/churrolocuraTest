@@ -38,7 +38,7 @@
         Churros
       </p>
     </button>
-    <button
+    <!-- <button
       class="menu-btn"
       on:click={() => {
         filter = "Pancakes";
@@ -47,7 +47,7 @@
       <p class="listname" active={filter === "Pancakes" ? "true" : "false"}>
         Pancakes
       </p>
-    </button>
+    </button> -->
     <!-- <p class='listname' >Salad</p>
         <p class='listname' >Pancakes</p>
         <p class='listname' >Muffins</p>

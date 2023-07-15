@@ -18,80 +18,56 @@ import promo3 from '../../../public/promo3.png'
 export const data = writable([
     {
         "title": "Churros Sencillos",
-        "price": "5.00$",
-        "description": "Vorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.",
+        "price": "2.50$",
+        "description": "Churros tradicionales con azúcar y canela",
         "category":"Churros",
-        "units":"5",
+        "units":"10",
         "image": churro1
     },
     {
-        "title": "Churros salados con salsa",
-        "price": "9.99$",
-        "description": "Lorem ipsum dolor sit amet consectetur. At tellus posuere ut egestas mi. Mauris mattis tortor rutrum aenean tempor. Vestibulum sed adipiscing sollicitudin lectus ante rhoncus. In lectus nunc vitae hendrerit volutpat facilisis.",
+        "title": "Churros sencillos con topping",
+        "price": "4.00$",
+        "description": "Churros tradicionales con azúcar y canela con adicional de topping",
         "category":"Churros",
-        "units":"8",
+        "units":"10",
         "image": churro2
     },
     {
-        "title": "Churros gourmet",
+        "title": "Mini churros con sirope",
         "price": "15.00$",
-        "description": "Lorem ipsum dolor sit amet consectetur. Molestie vitae platea morbi pretium pretium. Ut gravida imperdiet condimentum amet gravida mi ullamcorper accumsan. Porta ullamcorper sed sagittis faucibus est felis sollicitudin diam.", 
+        "description": "Churros pequeños cubiertos de azúcar y canela con un topping adicional", 
         "category":"Churros",
         "units":"10",
         "image": churro3
     },
     {
-        "title": "Churros mixtos",
-        "price": "19.00$",
-        "description": "Vorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.",
+        "title": "Dulce Tentación",
+        "price": "6.00$",
+        "description": "Churros salados recubiertos con el topping de su preferencia",
         "category":"Churros",
-        "units":"16",
+        "units":"20",
         "image": churro4
     },
     {
-        "title": "Pancakes de mora",
-        "price": "12.00$",
-        "description": "Lorem ipsum dolor sit amet consectetur. At tellus posuere ut egestas mi. Mauris mattis tortor rutrum aenean tempor. Vestibulum sed adipiscing sollicitudin lectus ante rhoncus. In lectus nunc vitae hendrerit volutpat facilisis.",
-        "category":"Pancakes",
-        "units":"8",
-        "image": pancake1
-    },
-    {
-        "title": "Pancakes de fresa",
-        "price": "13.00$",
-        "description": "Lorem ipsum dolor sit amet consectetur. Molestie vitae platea morbi pretium pretium. Ut gravida imperdiet condimentum amet gravida mi ullamcorper accumsan. Porta ullamcorper sed sagittis faucibus est felis sollicitudin diam.",
-        "category":"Pancakes",
-        "units":"8",
-        "image": pancake2
-    },
-    {
-        "title": "Pancakes con miel",
-        "price": "7.00$",
-        "description": "Vorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.",
-        "category":"Pancakes",
-        "units":"6",
-        "image": pancake3
-    },
-    {
         "title": "Barquilla sencilla",
-        "price": "1.50$",
-        "description": "Vorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.",
+        "price": "1.00$",
+        "description": "Helado de vainilla",
         "category":"Barquillas",
         "units":"1",
         "image": icecream1
     },
     {
         "title": "Barquilla doble con adicionales",
-        "price": "4.00$",
-        "description": "Lorem ipsum dolor sit amet consectetur. At tellus posuere ut egestas mi. Mauris mattis tortor rutrum aenean tempor. Vestibulum sed adipiscing sollicitudin lectus ante rhoncus. In lectus nunc vitae hendrerit volutpat facilisis.",
+        "price": "1.50$",
+        "description": "Barquilla combinada con adicional de chispas de colores",
         "category":"Barquillas",
         "units":"1",
         "image": icecream2
     },
     {
-        "title": "Barquillón de sabores",
-        "price": "8.00$",
-        "description": "Lorem ipsum dolor sit amet consectetur. Molestie vitae platea morbi pretium pretium. Ut gravida imperdiet condimentum amet gravida mi ullamcorper accumsan. Porta ullamcorper sed sagittis faucibus est felis sollicitudin diam.",
+        "title": "Locura Sundae",
+        "price": "3.00$",
+        "description": "Barquilla con trozos de churros azucarados con un adicional de topping",
         "category":"Barquillas",
         "units":"1",
         "image": icecream3
@@ -107,17 +83,17 @@ export const promos = writable([
         "image": promo1
     },
     {
-        "title": "Pancakes del Amor",
-        "price": "15.00$",
-        "description": "Lorem ipsum dolor sit amet consectetur. Ornare nec quis ullamcorper in mauris erat. Ultricies urna pharetra enim neque luctus vitae duis lectus. Morbi purus facilisi nulla vitae nulla semper adipiscing. Ultricies eget semper maecenas faucibus at tellus adipiscing ut. Ullamcorper volutpat enim non ultrices eget at urna elit. Ullamcorper lacinia augue ac nunc aliquet nisi ipsum mus non.",
+        "title": "Combo de tequeño",
+        "price": "2.00$",
+        "description": "Tequeños acompañados de bebida.",
         "units":"2",
         "image": promo2
     },
     {
-        "title": "Combo de Todo-en-uno",
-        "price": "99.00$",
-        "description": "Lorem ipsum dolor sit amet consectetur. In purus in laoreet quam libero sed tristique interdum. Sem adipiscing vestibulum elit at. Euismod purus risus sed lacus volutpat cursus orci viverra nibh. Interdum ullamcorper dignissim faucibus feugiat. Nulla donec pulvinar diam luctus nunc malesuada sapien elementum. Risus at aliquam cras luctus felis fusce. Malesuada purus nulla ullamcorper nulla platea nisi vitae consequat ullamcorper. Nulla interdum enim mauris proin nibh cras vitae. Enim cras consectetur tellus sollicitudin nibh tellus dignissim.",
-        "units":"8",
+        "title": "Combo de pastelitos de carne y papa con queso.",
+        "price": "2.00$",
+        "description": "Pastelitos rellenos de carne y papa con queso junto con una bebida",
+        "units":"3",
         "image": promo3
     }
 ])
