@@ -76,24 +76,24 @@ export const data = writable([
 
 export const promos = writable([
     {
-        "title": "Combo familiar para fiestas",
-        "price": "39.00$",
-        "description": "Lorem ipsum dolor sit amet consectetur. Aliquet ut quam porta augue consectetur a. In magna suspendisse et fringilla massa imperdiet quis mi. Nunc lectus ac sodales duis justo et tellus. Sit odio varius vitae leo ut. Eget et eu velit egestas venenatis. Arcu sed maecenas sed at id. Eget ullamcorper suscipit et nulla id felis orci tincidunt donec.",
-        "units":"5",
-        "image": promo1
+        "title": "Combo de pastelitos de carne y papa con queso.",
+        "price": "2.00$",
+        "description": "Pastelitos rellenos de carne y papa con queso junto con una bebida",
+        "units":"3",
+        "image": promo2
     },
     {
         "title": "Combo de tequeño",
         "price": "2.00$",
         "description": "Tequeños acompañados de bebida.",
         "units":"2",
-        "image": promo2
+        "image": promo1
     },
-    {
-        "title": "Combo de pastelitos de carne y papa con queso.",
-        "price": "2.00$",
-        "description": "Pastelitos rellenos de carne y papa con queso junto con una bebida",
-        "units":"3",
-        "image": promo3
-    }
+    // {
+        // "title": "Combo de pastelitos de carne y papa con queso.",
+        // "price": "2.00$",
+        // "description": "Pastelitos rellenos de carne y papa con queso junto con una bebida",
+        // "units":"3",
+    //     "image": promo3
+    // }
 ])
