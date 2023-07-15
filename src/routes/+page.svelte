@@ -18,7 +18,7 @@
   
   <svelte:window bind:innerWidth={iw} bind:innerHeight={ih} />
   <div class="">
-      <p>Visit <a href="/mobile/home">Mobile folder</a> to read the documentation</p>
+      <!-- <p>Visit <a href="/mobile/home">Mobile folder</a> to read the documentation</p> -->
     <!-- <p>Loading...</p> -->
     <!-- <img src={loading} alt="laoding" /> -->
   </div>

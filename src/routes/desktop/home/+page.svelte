@@ -230,9 +230,6 @@
     <button on:click={()=>{itemOpen($promos[1])}} >
       <img src={$promos[1].image} alt="" class="prom-img" />
     </button>
-    <button on:click={()=>{itemOpen($promos[2])}} >
-      <img src={$promos[2].image} alt="" class="prom-img" />
-    </button>
 
     {/if}
     
