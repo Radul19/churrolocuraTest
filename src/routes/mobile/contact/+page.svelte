@@ -29,14 +29,17 @@
   <img src={logo} alt="logosmall" class="logosmall" />
   <div class="info-ctn">
     <p>Danos tu opinión o cosulta mediante un correo electronico!</p>
-    <input type="text" placeholder="correo@gmail.com" />
-    <textarea
-      name=""
-      id=""
-      cols="20"
-      rows="10"
-      placeholder="Descripcion del mensaje..."
-    />
+    <form action="mailto:churrolocura@gmail.com" method="post" enctype="text/plain" >
+      <input type="text" placeholder="correo@gmail.com" name="email" />
+      <textarea
+        name="description"
+        id=""
+        cols="20"
+        rows="10"
+        placeholder="Descripcion del mensaje..."
+      />
+      <button type="submit" value="Send" >Enviar</button>
+    </form>
     <p>
       Recuerda que tambien puedes comunicarte con nosotros a traves de otros
       enlaces
@@ -54,6 +57,27 @@
 </div>
 
 <style>
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+  form button{
+    /* width: 120%; */
+    padding: 12px 0px;
+    border: 0px;
+    margin-top: auto;
+    margin-bottom: 24px;
+    width: 100%;
+    align-self: center;
+    background: #e17339;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color:#fff
+  }
+
   input,
   textarea {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
