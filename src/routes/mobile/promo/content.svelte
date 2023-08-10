@@ -8,16 +8,16 @@
   <p class="subtitle">Del día</p>
   <div class="prom-carousel">
     <a href={"promoItem?name=" + $promos[0].title.replace(" ", "+")}>
-      <img src={$promos[0].image} alt="" class="prom-img" />
+      <img src={$promos[0].imagetext} alt="" class="prom-img" />
     </a>
   </div>
   <p class="subtitle">De la semana</p>
   <div class="prom-carousel">
     <a href={"promoItem?name=" + $promos[1].title.replace(" ", "+")}>
-      <img src={$promos[1].image} alt="" class="prom-img" />
+      <img src={$promos[1].imagetext} alt="" class="prom-img" />
     </a>
     <a href={"promoItem?name=" + $promos[0].title.replace(" ", "+")}>
-      <img src={$promos[0].image} alt="" class="prom-img" />
+      <img src={$promos[0].imagetext} alt="" class="prom-img" />
     </a>
   </div>
   <p class="subtitle">Del mes</p>
@@ -26,10 +26,10 @@
       <img src={$promos[2].image} alt="" class="prom-img" />
     </a> -->
     <a href={"promoItem?name=" + $promos[1].title.replace(" ", "+")}>
-      <img src={$promos[1].image} alt="" class="prom-img" />
+      <img src={$promos[1].imagetext} alt="" class="prom-img" />
     </a>
     <a href={"promoItem?name=" + $promos[0].title.replace(" ", "+")}>
-      <img src={$promos[0].image} alt="" class="prom-img" />
+      <img src={$promos[0].imagetext} alt="" class="prom-img" />
     </a>
   </div>
 </div>

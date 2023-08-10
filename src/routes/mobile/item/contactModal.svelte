@@ -33,7 +33,7 @@
 
     <p class="subtitle">Envianos en nuestras redes sociales</p>
     <div class="buttons-ctn">
-      <a class="whatsapp-ctn btn" href="https://api.whatsapp.com/send?phone=+584146382366" >
+      <a class="whatsapp-ctn btn" href="https://api.whatsapp.com/send?phone=+584146936247"  target="_blank">
         <!-- icon -->
         <svg
           width="24"
@@ -79,24 +79,8 @@
 
         <p>Facebook</p>
       </a>
-      <a class="twitter-ctn btn" href="https://twitter.com/Mortdog" target="_blank" >
-        <!-- icon -->
-        <svg
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M18.3622 8.24023C18.5713 12.8577 15.1277 18.0055 9.03122 18.0055C7.17737 18.0055 5.45268 17.4615 4 16.53C5.74184 16.7357 7.48025 16.2511 8.85978 15.171C7.42424 15.1447 6.21159 14.1949 5.79213 12.8908C6.30759 12.9891 6.81506 12.9606 7.27566 12.8348C5.69726 12.5171 4.6069 11.0953 4.64233 9.57404C5.08579 9.81977 5.59097 9.96721 6.12929 9.98436C4.66748 9.00714 4.25373 7.07672 5.11322 5.60119C6.73162 7.58761 9.15122 8.89399 11.8794 9.03114C11.4005 6.97843 12.9584 5 15.0785 5C16.0214 5 16.8752 5.39889 17.4741 6.03665C18.2216 5.89035 18.9256 5.61604 19.5588 5.24002C19.3131 6.00693 18.7931 6.64926 18.1153 7.05615C18.7793 6.97614 19.4125 6.80013 20 6.5384C19.5611 7.19901 19.0056 7.77734 18.3622 8.24023Z"
-            fill="white"
-          />
-        </svg>
-
-        <p>Twitter</p>
-      </a>
-      <a class="instagram-ctn btn" href="http://instagram.com/_u/iam_seori/">
+      
+      <a class="instagram-ctn btn" href="http://instagram.com/_u/churrolocura_/" target="_blank">
         <!-- icon -->
         <svg
           width="24"
@@ -203,9 +187,7 @@
   .facebook-ctn {
     background-color: #4267b2;
   }
-  .twitter-ctn {
-    background-color: #1da1f2;
-  }
+
   .instagram-ctn {
     background-image: url("../../../public/ig-back.png");
     background-position: center;
