@@ -329,8 +329,8 @@
       <p class="contact-title">
         Danos tu opinion o consulta mediante un correo electronico
       </p>
-      <form class="contact-form">
-        <input type="text" class="email-input" placeholder="correo@gmail.com" />
+      <form class="contact-form" action="mailto:churrolocura@gmail.com" method="post" enctype="text/plain" >
+        <input type="text" class="email-input" placeholder="correo@gmail.com" name="email" />
         <textarea
           name="description"
           id="textarea"
@@ -338,7 +338,7 @@
           rows="10"
           placeholder="Descripción del mensaje"
         />
-        <button>Enviar</button>
+        <button type="submit" value="Send" >Enviar</button>
       </form>
     </div>
   </section>
