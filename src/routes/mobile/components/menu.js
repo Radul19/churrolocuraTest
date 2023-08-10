@@ -12,6 +12,8 @@ import pancake3 from '../../../public/pancake3.png'
 
 import promo1 from '../../../public/promo1.png'
 import promo2 from '../../../public/promo2.png'
+import promo1text from '../../../public/promo1text.png'
+import promo2text from '../../../public/promo2text.png'
 import promo3 from '../../../public/promo3.png'
 
 
@@ -80,14 +82,16 @@ export const promos = writable([
         "price": "2.00$",
         "description": "Pastelitos rellenos de carne y papa con queso junto con una bebida",
         "units":"3",
-        "image": promo2
+        "image": promo2,
+        "imagetext": promo2text,
     },
     {
-        "title": "Combo de tequeño",
+        "title": "Combo de tequeños",
         "price": "2.00$",
         "description": "Tequeños acompañados de bebida.",
         "units":"2",
-        "image": promo1
+        "image": promo1,
+        "imagetext": promo1text,
     },
     // {
         // "title": "Combo de pastelitos de carne y papa con queso.",
