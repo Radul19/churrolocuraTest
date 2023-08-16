@@ -773,22 +773,24 @@
   }
 
   .item-preview .name {
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 500;
     width: 70%;
   }
   .item-preview .units {
-    font-size: 1.5em;
+    font-size: 1.7em;
     color: #e17339;
   }
   .item-preview .price {
-    font-size: 1.5em;
+    font-size: 2em;
     color: #e17339;
     margin-top: auto;
     margin-left: auto;
+    font-weight: bold;
   }
   .item-preview .description {
-    margin-top: 24px;
+    margin-top: 48px;
     width: 80%;
+    font-size: 1.5em;
   }
 </style>
